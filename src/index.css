@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nav and Footer */
+@font-face {
+  font-family: FF_Mark_W05_Bold;
+  src: url('./fonts/FontFont_FF.Mark.Pro.Black.otf');
+}
+@font-face {
+  font-family: FF_Mark_W05;
+  src: url('./fonts/FontFont_FF.Mark.Pro.Bold.otf');
+}
+@font-face {
+  font-family: FF_Mark_W05_Thin;
+  src: url('./fonts/FontFont_FF.Mark.Pro.otf');
+}
+/* Headings and Content */
+@font-face {
+  font-family: Beaufort_for_LOL;
+  src: url('./fonts/Beaufort\ for\ LOL\ Bold.ttf');
+}
+/* Content Text */
+@font-face {
+  font-family: Spiegel;
+  src: url('./fonts/spiegel.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Support Font */
+@font-face {
+  font-family: Proxima;
+  src: url('./fonts/Proxima Nova Bold.otf');
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
